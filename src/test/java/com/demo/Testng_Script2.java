@@ -36,6 +36,12 @@ public class Testng_Script2 {
 		driver.findElement(By.xpath("//a[@title='Sitemap']")).click();
 		System.out.println("Redirect to sitemap pages");
 	}
+	
+	@Test
+	public void method4() {
+		driver.findElement(By.xpath("//a[@title='About us']")).click();
+		System.out.println("Redirect to About us pages");
+	}
 
 	@BeforeMethod
 	public void beforeMethod() {
