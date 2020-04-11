@@ -5,8 +5,10 @@
     <classes>
       <class name="com.demo.Testng_Script2">
         <methods>
-          <include name="method4"/>
+          <include name="method2"/>
+          <include name="method1"/>
           <include name="beforeClass"/>
+          <include name="method3"/>
           <include name="beforeMethod"/>
           <include name="afterClass"/>
           <include name="afterMethod"/>

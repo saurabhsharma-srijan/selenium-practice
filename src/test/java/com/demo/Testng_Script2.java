@@ -30,12 +30,20 @@ public class Testng_Script2 {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		System.out.println("Redirect to Special  & NewProduct pages");
 	}
+	
+	@Test
+	public void method3() {
+		driver.findElement(By.xpath("//a[@title='Sitemap']")).click();
+		System.out.println("Redirect to sitemap pages");
+	}
 
 	@BeforeMethod
 	public void beforeMethod() {
 		driver.get("http://automationpractice.com/index.php");
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//a[@class='login']")).click();
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+
 		driver.findElement(By.id("email")).sendKeys("saurabh.sh123@gmail.com");
 		driver.findElement(By.id("passwd")).sendKeys("srijan@123");
 		driver.findElement(By.xpath("//p[@class='submit']//span[1]")).click();
