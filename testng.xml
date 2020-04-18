@@ -3,8 +3,11 @@
 <suite name="Suite" parallel="none">
 <test name="Test">
 <classes>
-<class name="com.demo.Testng_Script"/>
-<class name="com.demo.Testng_Script2"/>
+<class name="yourlogo.Header"/>
+<class name="yourlogo.Footer"/>
+<class name="yourlogo.DetailPage"/>
+<class name="yourlogo.ListingPage"/>
+<class name="yourlogo.OrderProcess"/>
 
 </classes>
 </test> <!-- Test -->

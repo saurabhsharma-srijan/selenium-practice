@@ -3,17 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.demo.Testng_Script2">
+      <class name="yourlogo.SignUpAccount">
         <methods>
-          <include name="method2"/>
-          <include name="method1"/>
-          <include name="beforeClass"/>
-          <include name="method3"/>
-          <include name="beforeMethod"/>
-          <include name="afterClass"/>
-          <include name="afterMethod"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="signUp"/>
         </methods>
-      </class> <!-- com.demo.Testng_Script2 -->
+      </class> <!-- yourlogo.SignUpAccount -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
